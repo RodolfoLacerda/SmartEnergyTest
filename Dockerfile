@@ -43,6 +43,7 @@ RUN groupadd --gid 3434 qaninja \
 USER qaninja
 ENV PATH /home/qaninja/.local/bin:/home/qaninja/bin:${PATH}
 
+
 #
 # Install Java 11 LTS / OpenJDK 11
 #
